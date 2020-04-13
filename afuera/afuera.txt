@@ -1,6 +1,11 @@
 abcdefaaaaaaaaaaaaaaaaaaaaaaaaxscfvgb
 
+<<<<<<< HEAD
 12
+=======
+
+1
+>>>>>>> 5100a9b1a3d78ed0de82e4e4753e0d571ec45849
 
 2
 
