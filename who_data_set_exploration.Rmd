@@ -1,0 +1,24 @@
+---
+title: "who data set exploration"
+date: "6/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+library(tidyverse)
+```
+
+# Import
+
+```{r }
+
+who_tbl <- read_csv(file = "who.csv")
+
+who_tbl
+```
+
