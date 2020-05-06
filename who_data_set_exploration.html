@@ -378,7 +378,7 @@ summary {
 ## x dplyr::lag()    masks stats::lag()</code></pre>
 <div id="import" class="section level1">
 <h1>Import</h1>
-<pre class="r"><code>who_tbl &lt;- read_csv(file = &quot;who.csv&quot;)</code></pre>
+<pre class="r"><code>who_df &lt;- read_csv(file = &quot;who.csv&quot;)</code></pre>
 <pre><code>## Parsed with column specification:
 ## cols(
 ##   .default = col_double(),
@@ -387,7 +387,7 @@ summary {
 ##   iso3 = col_character()
 ## )</code></pre>
 <pre><code>## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>who_tbl</code></pre>
+<pre class="r"><code>who_df</code></pre>
 <pre><code>## # A tibble: 7,240 x 60
 ##    country iso2  iso3   year new_sp_m014 new_sp_m1524 new_sp_m2534 new_sp_m3544
 ##    &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;       &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;        &lt;dbl&gt;
