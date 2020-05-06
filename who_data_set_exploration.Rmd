@@ -17,7 +17,7 @@ library(tidyverse)
 
 ```{r }
 
-who_df <- read_csv(file = "who.csv")
+who_df <- read.csv(file = "who.csv")
 
 who_df
 ```
