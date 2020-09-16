@@ -1,6 +1,4 @@
 # myrepo
-Happy Git and GitHub for the useR exercise
 
-This is a line from RStudio
+I use this repository to experiment with github and how to use it
 
-Line added from GitHub
